@@ -1,5 +1,4 @@
 from guizero import App, TextBox, Text, PushButton
-#filename = "filename.txt"
 app = App(title="WoolfWrite", width=1200, height=750)
 
 def wordCount():
