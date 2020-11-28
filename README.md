@@ -5,7 +5,7 @@ A simple Python plain text word processor made with guizero
 
 ## Why and what now?
 
-The aim was to make a simple distraction-free word processor that is cheaper than buying a FreeWrite. I envisaged it backing up automatically by FTP or something, but actually I just run it in a Dropbox folder so the text gets backed up automatically anwyay if I have internent access.
+The aim was to make a simple distraction-free word processor that is cheaper than buying a FreeWrite. I envisaged it backing up by FTP or something, but actually I just run it in a Dropbox folder so the text gets backed up automatically anwyay if I have internet access.
 
 It really, really bugs me that so many word processors don't, by default, have an on-screen word count. So many people need word counts. You need them for job or college applications. You need them if you're being paid to write. Why no on-screen word counts!? So I decided to find out how hard it was to write my own.
 
