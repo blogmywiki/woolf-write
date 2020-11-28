@@ -1,5 +1,5 @@
 # woolf-write
-A simple Python word processor made with guizero
+A simple Python plain text word processor made with guizero
 
 ## Why and what now?
 
@@ -20,10 +20,15 @@ Download the woolfWrite.py and test.txt and woolfWrite.cfg config file and run w
 
 The .cfg file stores the filename of the last saved document. It assumes you're only working on one document at a time.
 
-
 ## How to use
 
-Start typing! It will warn you to save your docuemnts
-
+Start typing! The word count updates constantly as you type. It will warn you if your document had changed and not been saved. Click the 'save local' button to save. You can type a new filename in the box at the bottom of the window. Your current filename is also displayed in the app's title bar.
 
 ## To do
+This must be kept as simple as possible, but...
+- add exception handling if .cfg file doesn't exist, create one
+- time stamp saved files perhaps to keep every version of your work
+- options to change colour scheme?
+- use a different font, something proportional perhaps
+- possible merge with the rich-text HTML-based word processor I am working on
+- test with very long files - does this break the word count?
