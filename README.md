@@ -1,7 +1,7 @@
 # woolf-write
 A simple Python plain text word processor made with guizero
 
-![woolfWrite screenshot](https://raw.githubusercontent.com/blogmywiki/woolf-write/main/screenshot.png)
+![woolfWrite screenshot](screenshot.png)
 
 ## Why and what now?
 
