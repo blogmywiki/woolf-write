@@ -18,9 +18,9 @@ I also wanted to experiment with @lawsie's awesome guizero, a Python library tha
 
 First install guizero, there's a guide here: https://lawsie.github.io/guizero/
 
-Download the woolfWrite.py and test.txt and woolfWrite.cfg config file and run woolfWrite.py, for example from IDLE.
+Download the woolfWrite.py and optionally Mrs Dalloway.txt and woolfWrite.cfg config file and run woolfWrite.py, for example from IDLE or from the command line.
 
-The .cfg file stores the filename of the last saved document. It assumes you're only working on one document at a time.
+The woolfWrite.cfg file stores the filename of the last saved document. It assumes you're only working on one document at a time.
 
 ## How to use
 
@@ -28,10 +28,10 @@ Start typing! The word count updates constantly as you type. It will warn you if
 
 ## To do
 This must be kept as simple as possible, but...
-- add exception handling: if the .cfg file doesn't exist, create one
+~~- add exception handling: if the .cfg file doesn't exist, create one~~
 - tidy up the status bar so it's all on one line
 - time stamp saved files perhaps, to keep every version of your work
 - options to change colour scheme?
-- use a different font, something proportional perhaps
+~~- use a different font, something proportional perhaps~~
 - possible merge with the rich-text HTML-based word processor I am working on
-- test with very long files - does this break the word count?
+- test with very long files - does this break the word count? break memory?
