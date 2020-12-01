@@ -28,10 +28,11 @@ Start typing! The word count updates constantly as you type. It will warn you if
 
 ## To do
 This must be kept as simple as possible, but...
-~~- add exception handling: if the .cfg file doesn't exist, create one~~
-- tidy up the status bar so it's all on one line
-- time stamp saved files perhaps, to keep every version of your work
-- options to change colour scheme?
-~~- use a different font, something proportional perhaps~~
-- possible merge with the rich-text HTML-based word processor I am working on
-- test with very long files - does this break the word count? break memory?
+* [x] add exception handling: if the .cfg file doesn't exist, create one
+* [ ] tidy up the status bar so it's all on one line
+* [ ] time stamp saved files perhaps, to keep every version of your work
+* [ ] options to change colour scheme? Dark mode?
+* [ ] option to change displayed font size or font?
+* [x] use a different font, something proportional perhaps
+* [ ] possible merge with the rich-text HTML-based word processor I am working on
+* [ ] test with very long files - does this break the word count? break memory?
