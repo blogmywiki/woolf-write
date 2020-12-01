@@ -1,3 +1,5 @@
+# a very simple text editor with word count made with guizero
+
 from guizero import App, TextBox, Text, PushButton
 app = App(title="WoolfWrite", width=1200, height=750)
 
