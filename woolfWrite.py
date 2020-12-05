@@ -6,9 +6,11 @@ app = App(title="WoolfWrite", width=1400, height=800)
 def wordCount():
     status.value = "NOT SAVED"
     status.text_color = "red"
-    tempText = " ".join(input_box.get().split()) # remove line breaks, multiple spaces etc
-    wordSplit = tempText.split(" ")
-    words = str(len(wordSplit))
+#    tempText = " ".join(input_box.get().split()) # remove line breaks, multiple spaces etc
+#    wordSplit = tempText.split(" ")
+    text = input_box.get()
+    words = str(len(text.split()))
+#   words = str(len(wordSplit))
     wordText.value = "Words: " + words
 
 def localSave():
