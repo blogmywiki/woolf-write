@@ -8,7 +8,7 @@ def wordCount():
     status.text_color = "red"
     text = input_box.get()
     words = str(len(text.split()))
-    wordText.value = "Words: " + words
+    wordCountText.value = words + " words"
 
 def localSave():
     filename = filename_box.get()+".txt"
@@ -48,7 +48,7 @@ input_box.font = "-apple-system" # MacOS system font, replace with something lik
 input_box.text_color = "blue"
 input_box.text_size = 34
 input_box.bg = "#FFFFE7"
-wordText = Text(app, text="")
+wordCountText = Text(app, text="")
 saveButton = PushButton(app, command=localSave, text="Save")
 status = Text(app, text="")
 filename_box = TextBox(app, text=filename[:-4], width=20, height=1, multiline=False, scrollbar=False)
